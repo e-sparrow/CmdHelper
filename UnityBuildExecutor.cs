@@ -1,4 +1,5 @@
-﻿using Birdhouse.Common.Builds.Unity;
+﻿#if UNITY_EDITOR
+using Birdhouse.Common.Builds.Unity;
 using UnityEditor;
 using UnityEditor.Build.Reporting;
 
@@ -34,3 +35,4 @@ namespace Birdhouse.Extended.CommandLine
         }
     }
 }
+#endif

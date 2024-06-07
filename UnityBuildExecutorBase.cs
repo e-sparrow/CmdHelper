@@ -1,4 +1,5 @@
-﻿using System;
+﻿#if UNITY_EDITOR
+using System;
 using Birdhouse.Extended.CommandLine.Interfaces;
 using Birdhouse.Features.Aggregators;
 using Birdhouse.Features.Aggregators.Interfaces;
@@ -42,3 +43,4 @@ namespace Birdhouse.Extended.CommandLine
         }
     }
 }
+#endif
